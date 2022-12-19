@@ -2,7 +2,7 @@
 `ffmpeg` needs to be installed. This can be installed through `brew install ffmpeg` on Macs and `sudo apt install ffmpeg` on Linux machines
 
 ## How to run
-Place all the video links to the `.m3u8` files inside `video_links.txt`. Each link should be inserted in a new line. 
+Place all the video links (website links) to the `.m3u8` files inside `video_links.txt`. Each link should be inserted in a new line. 
 There should not be a new line after the last link.
 
 Place the corresponding video names in the `video_names.txt` file. Each filename should be inserted in a new line. 
