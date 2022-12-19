@@ -8,7 +8,7 @@ There should not be a new line after the last link.
 Place the corresponding video names in the `video_names.txt` file. Each filename should be inserted in a new line. 
 There should not be a new line after the last filename. No `/` are allowed in a filename.
 
-## Optional flags
+### Optional flags
 `-i` specifies the initial number of the output files
 
 For example `-i 2` will result in an output filename of `2. filename.mp4`
