@@ -14,7 +14,7 @@ Place all the video links to the `.m3u8` files inside `video_links.txt`. Each li
 There should not be a new line after the last link.
 
 Place the corresponding video names in the `video_names.txt` file. Each filename should be inserted in a new line. 
-There should not be a new line after the last filename. No `/` are allowed in filename.
+There should not be a new line after the last filename. No `/` are allowed in a filename.
 
 ### Example command
 `bash download_videos.sh -i 38 -d ./additional\ videos/`
