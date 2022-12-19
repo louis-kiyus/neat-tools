@@ -20,4 +20,4 @@ Note: Remember to include slash (`/`) at the end of the filepath
 ### Example command
 `bash download_videos.sh -i 38 -d ./additional\ videos/`
 
-This command will create file names that start from `38. ` and will place all the output videos into a directory called `addition videos` that is located in the current directory. 
+This command will create file names that start from `38. ` and will place all the output videos into a directory called `additional videos` that is located in the current directory. 
