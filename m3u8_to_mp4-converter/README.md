@@ -1,4 +1,7 @@
-No / allowed in filename
+No `/` allowed in filename
+
+### Prerequsites
+`ffmpeg` needs to be installed. This can be installed through `brew install ffmpeg` on Macs and `sudo apt install ffmpeg` on Linux machines
 
 `-i` specifies the initial number of the output files
 
