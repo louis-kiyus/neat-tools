@@ -11,8 +11,10 @@ do
     t) type=${OPTARG};;
   esac
 done
-for file in ${source}*.${type}
+for file in "${source}"*.${type}
 do
-  ffmpeg -i "$file" -vcodec libx265 -crf $quality "${destination}${file%\.*}"-compressed.${type}
+  FILENAME=${file##*/}
+  FILENAME=${FILENAME%\.*}
+  ffmpeg -i "$file" -vcodec libx265 -crf $quality "${destination}${FILENAME}"-compressed.${type}
 done
 
