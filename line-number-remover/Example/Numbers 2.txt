@@ -1,0 +1,19 @@
+  1. class recursion 
+  2. {
+  3.     int func (int n) 
+  4.     {
+  5.         int result;
+  6.         if (n == 1)
+  7.             return 1;
+  8.         result = func (n - 1);
+  9.         return result;
+  10.     }
+  11. } 
+  12. class Output 
+  13. {
+  14.     public static void main(String args[]) 
+  15.     {
+  16.         recursion obj = new recursion() ;
+  17.         System.out.print(obj.func(5));
+  18.     }
+  19. }
