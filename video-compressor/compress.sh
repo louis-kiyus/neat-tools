@@ -1,12 +1,18 @@
 quality=36
-while getopts q: flag
+destination="./"
+source="./"
+type="mp4"
+while getopts q:d:s:t: flag
 do
   case "${flag}" in
     q) quality=${OPTARG};;
+    d) destination=${OPTARG};;
+    s) source=${OPTARG};;
+    t) type=${OPTARG};;
   esac
 done
-for file in ./*.mp4
+for file in ${source}*.${type}
 do
-  ffmpeg -i "$file" -vcodec libx265 -crf $quality "${file%\.*}"-compressed.mp4
+  ffmpeg -i "$file" -vcodec libx265 -crf $quality "${destination}${file%\.*}"-compressed.${type}
 done
 
