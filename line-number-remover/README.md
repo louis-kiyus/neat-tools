@@ -11,3 +11,5 @@ then the delimiter is a dot (`.`). The program will overwrite `Numbers.txt` afte
 
 ### Examples
 Sample files with line numbers can be found in the `Example` subdirectory. `Numbers.txt` in this directory contains the expected output from running `LineNumberRemover.class` on these files. 
+
+###### Original Publish Date: December 19, 2022

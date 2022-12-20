@@ -11,3 +11,5 @@
 | `-t` | Specifies the type of the videos to be compressed. Default is `mp4`.                                                                                |
 
 ### Example command
+
+###### Original Publish Date: December 19, 2022

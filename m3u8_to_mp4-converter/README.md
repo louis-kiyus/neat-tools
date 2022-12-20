@@ -21,3 +21,5 @@ Note: Remember to include slash (`/`) at the end of the filepath
 `bash download_videos.sh -i 38 -d ./additional\ videos/`
 
 This command will create file names that start from `38. ` and will place all the output videos into a directory called `additional videos` that is located in the current directory. 
+
+###### Original Publish Date: December 19, 2022
