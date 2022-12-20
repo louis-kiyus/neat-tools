@@ -1,5 +1,5 @@
 ## Overview
-
+This bash script compresses all the video files of a specified type in a directory to a smaller size that can be adjusted according to the need of the user.  
 ## How to run
 
 ### Optional flags
