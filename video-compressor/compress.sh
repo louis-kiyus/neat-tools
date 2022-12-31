@@ -15,6 +15,6 @@ for file in "${source}"*.${type}
 do
   FILENAME=${file##*/}
   FILENAME=${FILENAME%\.*}
-  ffmpeg -i "$file" -vcodec libx265 -crf $quality "${destination}${FILENAME}"-compressed.${type}
+  ffmpeg -i "$file" -vcodec libx265 -crf $quality "${destination}${FILENAME}"-compressed.mp4
 done
 
