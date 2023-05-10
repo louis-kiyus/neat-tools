@@ -16,10 +16,7 @@ new_dir = "/".join(dir_parts[:-1] + [''])
 pdfFileObj = open(original_dir, 'rb')
 pdfReader = PyPDF2.PdfReader(pdfFileObj)
 pageObj = pdfReader.pages[0]
-# print(pageObj.extract_text())
 new_filename = pageObj.extract_text().splitlines()[0] + ".pdf"
-# print("mv " + "\"" + parent_dir + filename +
-#       "\"" + " " + "\"" + new_filename + "\"")
 new_dir += new_filename
 print()
 print("New Filename:", new_filename)
