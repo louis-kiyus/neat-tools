@@ -15,6 +15,7 @@ if len(args.filepaths) == 0:
     print("No filepaths provided")
     sys.exit(1)
 for original_dir in args.filepaths:
+    print("--------------------")
     print("Filepath:", original_dir)
 
     dir_parts = original_dir.split("/")
@@ -28,7 +29,7 @@ for original_dir in args.filepaths:
     pageObj = pdfReader.pages[0]
     new_filename = pageObj.extract_text().splitlines()[args.index] + ".pdf"
     new_dir += new_filename
-    print()
     print("New Filename:", new_filename)
+    print("--------------------")
     os.system("mv " + "\"" + original_dir +
               "\"" + " " + "\"" + new_dir + "\"")
