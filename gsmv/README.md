@@ -4,6 +4,16 @@
 
 This script renames PDF file(s) by extracting the title from the PDF's first line (modifiable by the `-i` flag) and using it as the new filename. The script has been specifically tested with PDFs that are graded on Gradescope and can be used on any other PDFs.
 
+## Dependencies
+
+1. `PyPDF2`. You can check for its availability by the following command:
+
+```
+pip3 install PyPDF2
+```
+
+If your computer does not have `PyPDF2` installed, the above command will automatically install it for you.
+
 ## Instructions
 
 To run, simply enter:
